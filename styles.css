@@ -93,3 +93,47 @@ button {
     background-color: #e4e4e2;
     color: #191d21;
 }
+
+@media (max-width: 767px) {
+    /* Small screen styles */
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 6px 12px 12px 12px;
+    }
+
+    .banner-wrap {
+        height: 60vh;
+    }
+
+    nav {
+        height: 60px;
+    }
+
+    .nav-item {
+        padding: 8px 12px;
+    }
+
+    .logo {
+        height: 20px;
+        width: 100px;
+    }
+
+    .title-section {
+        margin-top: calc(120px - 60px);
+    }
+
+    .actions-area {
+        margin-bottom: 30px;
+    }
+
+    button {
+        width: 220px;
+        height: 40px;
+        padding: 8px 24px;
+        font-size: 16px;
+    }
+}
